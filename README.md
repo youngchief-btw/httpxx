@@ -1,6 +1,6 @@
 # httpxx
 
-HTTP(S) in C++
+HTTP(S) in C/C++
 
 Including this in your projects:
 
