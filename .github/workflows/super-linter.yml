@@ -2,7 +2,7 @@
 #################################
 ## Super Linter GitHub Actions ##
 #################################
-name: Super Lint!
+name: Super Linter
 
 #
 # Documentation:
@@ -20,7 +20,7 @@ on: [push, pull_request]
 jobs:
   build:
     # Name the Job
-    name: Super lint!
+    name: Super Linter
     # Set the agent to run on
     runs-on: ubuntu-latest
 
@@ -40,7 +40,7 @@ jobs:
       ################################
       # Run Linter against code base #
       ################################
-      - name: Super lint!
+      - name: Super Linter
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: true
