@@ -1,3 +1,6 @@
+#ifndef YOUNGCHIEF_DCXX
+#define YOUNGCHIEF_DCXX
+
 #ifdef __cplusplus /* If this is a C++ compiler, use C linkage */
 extern "C" {
 #endif
@@ -107,4 +110,6 @@ namespace httpxx {
 
 #ifdef __cplusplus /* If this is a C++ compiler, end C linkage */
 }
+#endif
+
 #endif
