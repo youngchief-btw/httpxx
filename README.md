@@ -1,6 +1,6 @@
 # httpxx
 
-HTTP(S) in C/C++
+Public-domain, Single-header, HTTP(S) in C/C++
 
 Including this in your projects:
 
