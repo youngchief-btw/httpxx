@@ -1,5 +1,5 @@
-#ifndef YOUNGCHIEF_DCXX
-#define YOUNGCHIEF_DCXX
+#ifndef YOUNGCHIEF_HTTPXX
+#define YOUNGCHIEF_HTTPXX
 
 #ifdef __cplusplus /* If this is a C++ compiler, use C linkage */
 extern "C" {
